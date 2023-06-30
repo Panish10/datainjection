@@ -336,7 +336,7 @@ public class MDBMetadataService {
         }
     }
 
-    private void filterManualy(Table table, List<List<Object>> rowList) {
+    private void filterManually(Table table, List<List<Object>> rowList) {
         for (Row row : table) {
             List<Object> columnList = new ArrayList<>();
             if (row.get("EmployeeId").toString().equalsIgnoreCase("71")) {
