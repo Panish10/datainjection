@@ -32,6 +32,7 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- to read MDB file -->
         <dependency>
             <groupId>com.healthmarketscience.jackcess</groupId>
             <artifactId>jackcess</artifactId>
